@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'literaturhaus-symbols';
-  src:  url('./fonts/literaturhaus-symbols.eot?bbxxrl');
-  src:  url('./fonts/literaturhaus-symbols.eot?bbxxrl#iefix') format('embedded-opentype'),
-    url('./fonts/literaturhaus-symbols.ttf?bbxxrl') format('truetype'),
-    url('./fonts/literaturhaus-symbols.woff?bbxxrl') format('woff'),
-    url('./fonts/literaturhaus-symbols.svg?bbxxrl#literaturhaus-symbols') format('svg');
+  src:  url('https://raw.githubusercontent.com/manniR/webfonts/master/literaturhaus-symbols/fonts/literaturhaus-symbols.eot?bbxxrl');
+  src:  url('https://raw.githubusercontent.com/manniR/webfonts/master/literaturhaus-symbols/fonts/literaturhaus-symbols.eot?bbxxrl#iefix') format('embedded-opentype'),
+    url('https://raw.githubusercontent.com/manniR/webfonts/master/literaturhaus-symbols/fonts/literaturhaus-symbols.ttf?bbxxrl') format('truetype'),
+    url('https://raw.githubusercontent.com/manniR/webfonts/master/literaturhaus-symbols/fonts/literaturhaus-symbols.woff?bbxxrl') format('woff'),
+    url('https://raw.githubusercontent.com/manniR/webfonts/master/literaturhaus-symbols/fonts/literaturhaus-symbols.svg?bbxxrl#literaturhaus-symbols') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-i {
+.lit {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'literaturhaus-symbols' !important;
   speak: none;
